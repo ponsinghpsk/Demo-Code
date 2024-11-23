@@ -17,6 +17,7 @@ public class App {
 		System.out.println("Hello World!");
 		String fileName = "config.json"; // JSON file name
 
+		System.out.println("Hello");
 		// Read the JSON file from resources folder
 		try {
 			URL filePath = App.class.getClassLoader().getResource(fileName);
